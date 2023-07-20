@@ -1,8 +1,7 @@
 import { elements } from "./base";
 // private function
 const rendeRecipe = recipe => {
-      
-      console.log(recipe);
+
       const markup = `
             <li>
                   <a class="likes__link" href="#${recipe.recipe_id}">
